@@ -1,0 +1,19 @@
+.inputs-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 50px auto;
+    gap: 30px;
+}
+.inputs-container input{
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;   ;
+}
+.inputs-container button{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(12, 59, 80);
+    color: #fff;
+    cursor: pointer;
+}
