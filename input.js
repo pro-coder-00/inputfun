@@ -16,6 +16,7 @@ let inputfun = () =>{
         .then((userCredential) => {
           // Signed in 
               var user = userCredential.user;
+              window.location.href="landingpage.html"
                Swal.fire({
               title: "Successful !",
               icon: "success",
